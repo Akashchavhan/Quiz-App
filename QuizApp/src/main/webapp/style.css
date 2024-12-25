@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.answers div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.answers input[type="radio"] {
+    vertical-align: middle; /* Ensures the radio button aligns in the middle with the label */
+    margin: 0;
+}
+
+.answers label {
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
